@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/takibg"
+    android:orientation="vertical"
+    tools:context=".Help">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="How to play TAKI"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Overview"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Each player follows the preceding card, laid on the table, with a card of the same color or figure. Special cards may change the direction of play, skip a player's turn, make other players draw cards, change the color and allow a player to discard more than one card. The objective of the game is to discard all the cards in your hand."
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rules"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="The cards are shuffled and each player receives eight.
+         The rest of the deck becomes the draw pile.
+         The top card in the draw pile is turned over and placed face up next to the draw pile to form a discard pile.
+         The upper card of the discard pile is called the Leading Card.
+         Each player discards a card (or cards) onto the leading card,
+          by
+          (a) matching its color;
+          or (b) matching its number or figure;
+          or (c) using a SuperTaki or Switch Color.
+          A player who cannot play draws one card from the draw pile.
+          It may be used only in the next round.
+          The game ends when the a player has discarded his last card. "
+
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Special Cards"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All the cards which are not regular number cards are Action Cards.
+        An Action Card can affect the player who uses it, the next player or all the players.
+        These cards are the heart of the game and the key to winning.
+    Stop - The next player loses his turn.
+    +2 - Forces the next player to draw 2 cards or discard another +2 which forces the next player to draw 4 or follow with a +2 as well, etc. The player who cannot follow with a +2 must draw 2 cards for every +2 card which has been played. After he collected the cards, the last +2 card in the draw pile is free to be used as a color or a number.
+    Switch Color - Allows the user to determine the color to be played by the next player. This card may be played at any time except after +2 which is still active.
+    TAKI – Discarding a TAKI card allows a player to follow with all the cards of the same color as the TAKI. NOTE: You may NOT play any other colors during a Taki run except the color of the leading Taki card.
+
+    A TAKI card must be closed at the end of its use by pressing the End Turn button.
+
+            SuperTaki - A wild TAKI which can be any color.
+            Plus - This card forces the user to play again. If the player cannot play another card he must draw."
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

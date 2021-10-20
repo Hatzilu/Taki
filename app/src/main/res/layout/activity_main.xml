@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/takibg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="300px"
+        android:layout_gravity="center"
+        android:contentDescription="Logo"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btPvp"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="Player VS Player" />
+
+    <TextView
+        android:id="@+id/player1wins"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="Player 1 wins: 0"
+        android:textSize="30sp"
+        android:textColor="#FFFF"
+        />
+
+    <TextView
+        android:id="@+id/player2wins"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="Player 2 wins: 0"
+        android:textSize="30sp"
+        android:textColor="#FFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btSave"
+            android:layout_width="200sp"
+            android:layout_height="match_parent"
+            android:text="Save Player wins" />
+
+        <Button
+            android:id="@+id/btLoad"
+            android:layout_width="200sp"
+            android:layout_height="match_parent"
+            android:text="Load Player wins" />
+    </LinearLayout>
+</LinearLayout>
